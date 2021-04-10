@@ -3,14 +3,13 @@ body {
 }
 
 h1 {
-    font-family: 'Nunito', sans-serif;
-    color:midnightblue;
+  font-family: "Nunito", sans-serif;
+  color: midnightblue;
 }
 
-p{
-    font-family: 'Nunito', sans-serif;
-    color:midnightblue;
-    font-weight: normal;
-    font-size: 18px;
-
+p {
+  font-family: "Nunito", sans-serif;
+  color: midnightblue;
+  font-weight: normal;
+  font-size: 18px;
 }
