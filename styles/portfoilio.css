@@ -1,15 +1,27 @@
-body {
-  background: pink;
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #46a8af;
+  --accent-color: #f26360;
+  --default-font-family: "Nunito", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--default-font-family);
+  color: var(--secondary-color);
+}
 h1 {
-  font-family: "Nunito", sans-serif;
-  color: midnightblue;
+  font-size: 72px;
+  font-style: normal;
+  line-height: 98.21px;
 }
 
-p {
-  font-family: "Nunito", sans-serif;
-  color: midnightblue;
-  font-weight: normal;
-  font-size: 18px;       
+.hero {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 160px 20px;
 }
