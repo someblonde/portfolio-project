@@ -82,6 +82,15 @@ border-radius: 12px;
 
 }
 
+footer{
+  position: absolute;
+width: 1440px;
+height: 100px;
+left: 205px;
+top: 1603px;
+
+}
+
 .hero {
   background: var(--primary-color);
   text-align: center;
@@ -122,12 +131,21 @@ padding: 0px;
 
 }
 
-footer{
-  position: absolute;
-width: 1440px;
-height: 100px;
-left: 0px;
-top: 1603px;
+
+.ml-n1{
+ margin-left: -0.50rem !important;
+ padding:10px;
+}
+
+.btn {
+  border-color: var(--accent-color);
+  color: var(--accent-color)
+}
+
+.btn:hover{
+  background:  var(--primary-color);
+  border-color: var(--accent-color);
+  color:var(--accent-color)
 }
 
 
