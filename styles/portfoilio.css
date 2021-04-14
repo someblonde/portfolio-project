@@ -15,14 +15,14 @@ h6 {
   color: var(--secondary-color);
 }
 h1 {
-  font-size: 72px;
+  font-size: 60px;
   font-style: normal;
   line-height: 98.21px;
   position: absolute;
 width: 325px;
 height: 98px;
 left: calc(50% - 325px/2 + 0.5px);
-top: 126px;
+top: 180px;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h3 {
   width: 257px;
   height: 49px;
   left: calc(50% - 257px / 2 + 0.5px);
-  top: 820px;
+  top: 845px;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -68,6 +68,12 @@ p {
   line-height: 30px;
 }
 
+
+ 
+
+   
+
+
 img {
   position: static;
   width: 360px;
@@ -88,6 +94,7 @@ footer {
   height: 100px;
   left: 205px;
   top: 1603px;
+  text-align: center;
 }
 
 .hero {
@@ -110,7 +117,7 @@ footer {
 .container {
   position: relative;
   left: 2px;
-  top: 450px;
+  top: 400px;
   text-align: center;
 }
 
@@ -122,9 +129,10 @@ left:355px;
 top: 377px;
 }
 
-.aboutbox{
-
-
+.info{
+  text-align: center;
+position: static;
+margin-top: 450px;
 }
 
 
@@ -148,6 +156,8 @@ top: 377px;
   font-size: 20px;
   border-radius: 50%;
 }
+
+
  
 
 .ml-n1 {
