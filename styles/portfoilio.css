@@ -72,9 +72,6 @@ img {
 
 
 
-
-
-
 .row-maps{
   display: flex;
     flex-wrap: wrap;
@@ -85,21 +82,11 @@ img {
   
 }
 
-
 .container {
   position: relative;
   left: 2px;
   top: 720px;
   text-align: center;
-}
-
-.yourstruly {
-  position: absolute;
-width: 480px;
-height: 410px;
-left:355px;
-top: 330px;
-border-radius: 12px;
 }
 
 .img-fluid {
@@ -111,9 +98,6 @@ top: 408px;
 border-radius: 12px;
 
 }
-
-
-
 
 .info{
   text-align: center;
@@ -143,18 +127,6 @@ margin-top: 900px;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-}
-
-
-
-
-
-
-
-
-.ml-n1 {
-  margin-left: -0.5rem !important;
-  padding: 10px;
 }
 
 .btn {
