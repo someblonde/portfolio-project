@@ -41,50 +41,21 @@ h2 {
   position: absolute;
   width: 460px;
   height: 87px;
-  left: calc(41% - 460px / 2 + 250px);
-  top: 350px;
+ left: calc(47% - 325px/2 + 0.5px);
+  top: 300px;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 87px;
-  padding: 10;
-  margin-bottom: 5px;
+
+  
 }
 
-h3 {
-  position: absolute;
-  width: 257px;
-  height: 49px;
-  left: calc(50% - 257px / 2 + 0.5px);
-  top: 830px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 49px;
-  text-align: center;
- 
-
-}
 
 h4{
   margin-top: -50px;
 }
 
-
-
-p {
-  position: absolute;
-  width: 460px;
-  height: 120px;
-  left: calc(41% - 460px / 2 + 250px);
-  top: 420px;
-   margin-top: 2px;
-  font-family: var(--default-font-family);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-}
 
 
 img {
@@ -97,14 +68,13 @@ img {
  
 }
 
-footer {
-  position: absolute;
-  width: 1440px;
-  height: 100px;
-  left: 205px;
-  top: 1603px;
-  text-align: center;
+.home-hero{
+      text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 40px 5px 40px;
+   
 }
+
 
 
 .row-maps{
@@ -117,15 +87,6 @@ footer {
   
 }
 
-.nintendo{
-  position: absolute;
-  width: 460px;
-  height: 450px;
-  left: 310px;
-  top: 350px;
-  border-radius: 12px;
-  opacity:0.8;
-}
 
 .container {
   position: relative;
@@ -153,15 +114,8 @@ border-radius: 12px;
 
 }
 
-.me{
-   position: absolute;
-width: 440px;
-height: 410px;
-left:380px;
-top: 405px;
-border-radius: 12px;
 
-}
+
 
 .info{
   text-align: center;
@@ -194,26 +148,10 @@ margin-top: 900px;
 }
 
 
-.footerlinks {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  margin-top: 50px;
-    
-}
 
-.footerlinks a {
-  display: flex;
-  margin: 20px;
-  padding: 14px 14px;
-  font-size: 20px;
-  border-radius: 50%;
-  margin-top: 2px;
 
-  
-}
+
+
 
 
 .ml-n1 {
@@ -247,18 +185,4 @@ color:var(--accent-color);
 }
 
 
-
-.fa-pinterest-square{
-   color: var(--accent-color);
-  
-}
-
-.fa-github{
-   color: var(--accent-color);
-
-}
-
-.fa-envelope{
-   color: var(--accent-color);
-}
 
