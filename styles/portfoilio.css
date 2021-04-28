@@ -59,19 +59,11 @@ img {
 }
 
 .row-maps {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  flex-direction: row;
-  border-radius: 35px;
-  margin-top: -400px;
+ 
 }
 
 .container {
-  position: relative;
-  left: 2px;
-  top: 720px;
-  text-align: center;
+
 }
 
 .img-fluid {
