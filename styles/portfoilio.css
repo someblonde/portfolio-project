@@ -50,8 +50,11 @@ img {
   border-radius: 30px;
 }
 
-img[src*="luna3"] {
-  opacity: 0.8;
+img[src*="lunatapir"] {
+  height: 450px;
+  
+}
+row {
   
 }
 
