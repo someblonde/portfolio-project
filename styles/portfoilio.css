@@ -58,13 +58,7 @@ img {
   margin: 5px 40px 5px 40px;
 }
 
-.row-maps {
- 
-}
 
-.container {
-
-}
 
 .img-fluid {
   position: absolute;
@@ -128,4 +122,30 @@ img {
   font-size: 24px;
   line-height: 35px;
   color: var(--accent-color);
+}
+
+footer .email-link{
+  text-decoration:none;
+  color:black;
+  font: size 24px;
+  text-align: center;
+
+}
+
+footer .email-link:hover{
+  color:var(--tertiary-color)
+}
+
+footer .footer-links a{
+  margin:0 20px;
+  color:var(--accent-color);
+  padding:10px;
+  font-size:18px;
+  transition: all 100ms ease;
+  
+
+}
+
+footer .footer-links a:hover {
+  color:var(--secondary-color);
 }
