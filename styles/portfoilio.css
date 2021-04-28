@@ -44,12 +44,15 @@ h4 {
 }
 
 img {
-  width: 340px;
-  height: 350px;
-  left: 0px;
-  top: 0px;
+  width: 470px;
+  height: 320px;
   margin: 20px 0px;
   border-radius: 30px;
+}
+
+img[src*="luna3"] {
+  opacity: 0.8;
+  
 }
 
 .home-hero {
@@ -59,15 +62,6 @@ img {
 }
 
 
-
-.img-fluid {
-  position: absolute;
-  width: 480px;
-  height: 410px;
-  left: 340px;
-  top: 408px;
-  border-radius: 12px;
-}
 
 .info {
   text-align: center;
