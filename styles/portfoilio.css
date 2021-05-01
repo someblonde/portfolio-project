@@ -1,7 +1,7 @@
 :root {
   --primary-color: #ffffff;
   --secondary-color: #3969a1;
-  --accent-color: #f8d0ef;
+  --accent-color: #f2b0e4;
   --tertiary-color: #32227a;
   --default-font-family: "Nunito", sans-serif;
 }
@@ -23,7 +23,7 @@ h6 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 48px;
   font-style: normal;
   line-height: 98.21px;
   text-align: center;
@@ -33,10 +33,65 @@ h1 {
 h2 {
   text-align: center;
   font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 33px;
   line-height: 87px;
 }
+
+h4 {
+  margin-top: -50px;
+}
+
+img {
+  width: 450px;
+  height: 320px;
+  margin: 20px 0px;
+  border-radius: 30px;
+}
+
+img[src*="lunatapir"] {
+  height: 450px;
+  
+}
+
+img[src*="avatar"]{
+  height: 500px;
+  width:500px;
+  
+}
+
+ img[src*="dreaming"]{
+   height:350px;
+ }
+
+  img[src*="moon"]{
+   height:350px;
+  }
+
+  img[src*="clouds"]{
+   height:350px;
+  
+  }
+
+a{
+  text-decoration: none;
+ }
+
+a:hover{
+  color:var(--accent-color);
+ }
+
+h4 {
+  margin-top: -50px;
+}
+
+nav a{
+  color:var(--tertiary-color);
+}
+
+nav a:hover{
+  color:#f2b0e4
+}
+
 
 @media (max-width: 320px) {
   .hero h1 {
@@ -60,17 +115,8 @@ h2 {
     margin-top:50px
   }
 
-  img {
-  width:100%;
-  height: 100%;
-   
- 
-}
-
-
- 
-
- .hero h1 {
+  
+    .hero h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 2px;
@@ -89,29 +135,6 @@ h2 {
 
 }
 
-h4 {
-  margin-top: -50px;
-}
-
-img {
-  width: 470px;
-  height: 320px;
-  margin: 20px 0px;
-  border-radius: 30px;
-}
-
-img[src*="lunatapir"] {
-  height: 450px;
-  
-}
-
-img[src*="avatar"]{
-  height: 500px;
-  width:500px;
-  
-}
-
-
 .home-hero {
   text-align: center;
 }
@@ -121,15 +144,11 @@ img[src*="avatar"]{
   text-align: left;
 }
 
-
-
 .info {
   text-align: center;
   position: static;
   margin-top: 900px;
 }
-
-
 
 .btn {
   border-color: var(--tertiary-color);
@@ -156,18 +175,6 @@ img[src*="avatar"]{
   color: var(--accent-color);
 }
 
-footer .email-link{
-  text-decoration:none;
-  color:black;
-  font: size 24px;
-  text-align: center;
-
-}
-
-footer .email-link:hover{
-  color:var(--tertiary-color)
-}
-
 footer .footer-links a{
   margin:0 20px;
   color:var(--tertiary-color);
@@ -175,9 +182,9 @@ footer .footer-links a{
   font-size:18px;
   transition: all 100ms ease;
   
-
 }
 
 footer .footer-links a:hover {
   color:var(--accent-color);
 }
+
